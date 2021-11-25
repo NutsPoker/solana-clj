@@ -19,8 +19,8 @@
 ;; Authority types
 (def ^:const authority-type-mint-tokens "MintTokens")
 (def ^:const authority-type-freeze-account "FreezeAccount")
-(def ^:const authority-type-AccountOwner "AccountOwner")
-(def ^:const authority-type-CloseAccount "CloseAccount")
+(def ^:const authority-type-account-owner "AccountOwner")
+(def ^:const authority-type-close-account "CloseAccount")
 
 (defn create-init-account-instruction
   [^sol/Pukbey program-id ^sol/Pubkey mint ^sol/Pubkey account ^sol/Pubkey owner]
